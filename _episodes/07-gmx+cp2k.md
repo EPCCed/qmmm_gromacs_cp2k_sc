@@ -15,12 +15,12 @@ keypoints:
 - "Broken covalent bonds will be treated automatically"
 ---
 
-The video recording for this presentation can be found 
+The video recording for this practical session can be found 
 [here](https://youtu.be/rw5CZD5wQOs). Note that this is the full recording 
 with solutions to the exercises shown. We strongly advise that you pause the 
 video and try the exercises when they come up.
 
-[Slides](../slides/QMMM-Tutorial-EPCC.pdf)
+The slides from the recording can be found [here](../slides/QMMM-Tutorial-EPCC.pdf).
 
 ## Preparing for the tutorial
 
