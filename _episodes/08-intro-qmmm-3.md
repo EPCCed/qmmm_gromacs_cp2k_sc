@@ -2,7 +2,6 @@
 title: "Lecture: Introduction to QM/MM - Third part"
 teaching: 30
 exercises: 0
-start: True
 questions:
 - "What is the difference between GGA and hybrid exchange-correlation functionals?"
 - "What are the Grimme dispersion corrections?"
