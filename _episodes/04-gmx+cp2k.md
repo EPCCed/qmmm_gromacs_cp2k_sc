@@ -15,6 +15,11 @@ keypoints:
 - "When doing advanced sampling with QMMM one should be aware of the distribution and final profile quality"
 ---
 
+The video recording for this presentation can be found 
+[here](https://youtu.be/ZPdOLBRDxPU). Note that this is the full recording 
+with solutions to the exercises shown. We strongly advise that you pause the 
+video and try the exercises when they come up.
+
 [Slides](../slides/QMMM-Tutorial-EPCC.pdf)
 
 ## Preparing for the tutorial

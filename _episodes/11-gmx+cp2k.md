@@ -16,6 +16,11 @@ keypoints:
 - "Advanced properties, like absorption spectra could be calculated using external input files"
 ---
 
+The video recording for this presentation can be found 
+[here](https://youtu.be/jhsHRliw1sU). Note that this is the full recording 
+with solutions to the exercises shown. We strongly advise that you pause the 
+video and try the exercises when they come up.
+
 [Slides](../slides/QMMM-Tutorial-EPCC.pdf)
 
 ## Preparing for the tutorial
