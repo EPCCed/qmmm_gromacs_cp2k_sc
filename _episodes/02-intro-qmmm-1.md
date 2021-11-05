@@ -1,6 +1,6 @@
 ---
 title: "Lecture: Introduction to QM/MM - First part"
-teaching: 30
+teaching: 35
 exercises: 0
 questions:
 - "What is CP2K?"
@@ -16,7 +16,7 @@ objectives:
 
 ## Video, slides and notes
 
-This lecture is being provided as a [pre-recorded presentation](https://www.youtube.com/watch?v=kZrGWcVcuFM).
+The video recording for this lecture can be found [here](https://youtu.be/kZrGWcVcuFM).
 
 The slides of the lecture can be found [here](../slides/Introduction_to_QMMM-First_part.pdf).\\
 The notes with the audio transcription of the lecture are available [here](../slides/Notes_First_part.pdf).

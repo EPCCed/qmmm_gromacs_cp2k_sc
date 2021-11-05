@@ -11,6 +11,9 @@ keypoints:
 - ""
 ---
 
+The video for the course wrap-up can be found [here](https://youtu.be/9ucekR4EXX8?t=1885).
+Note that this is the final five minutes of the previous Q&A session video.
+
 [Slides](../slides/wrapup.pdf)
 
 [PRACE feedback survey](https://events.prace-ri.eu/event/1204/surveys/787)

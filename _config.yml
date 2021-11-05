@@ -3,7 +3,7 @@
 #------------------------------------------------------------
 
 # Overall title for pages.
-title: "QM/MM with GROMACS + CP2K"
+title: "QM/MM with GROMACS + CP2K self checkout course"
 
 # Life cycle stage of the lesson
 # possible values: "pre-alpha", "alpha", "beta", "stable"
@@ -25,14 +25,14 @@ repository: <USERNAME>/<PROJECT>
 email: "support@archer2.ac.uk"
 
 # Sites.
-workshop_repo: "https://github.com/bioexcel/2021-04-22-qmmm-gromacs-cp2k"
-workshop_site: "https://bioexcel.github.io/2021-04-22-qmmm-gromacs-cp2k"
+workshop_repo: "https://github.com/EPCCed/qmmm_gromacs_cp2k_sc"
+workshop_site: "https://epcced.github.io/qmmm_gromacs_cp2k_sc/"
 cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 
 
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
-start_time: 570
+start_time: 0
 
 # Specify that things in the episodes collection should be output.
 collections:
