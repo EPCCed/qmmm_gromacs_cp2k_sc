@@ -30,8 +30,9 @@ found in the ARCHER2 documentations:
 
 ### Request your ARCHER2 login account.
 
-You will need to request an account for project `ta025`. Instructions for 
-requesting your ARCHER2 login account can be found here:
+Information on requesting an account on ARCHER2 (including details of which 
+budget to apply for) will have been sent to you in your sign-up email. 
+Instructions for requesting your ARCHER2 login account can be found here:
 
 [https://docs.archer2.ac.uk/quick-start/quickstart-users/#request-an-archer2-login-account](https://docs.archer2.ac.uk/quick-start/quickstart-users/#request-an-archer2-login-account)
 
@@ -51,9 +52,8 @@ Note that when you first log on you will be immediately prompted to change your
 
 ### Problems 
 
-If you have any issues, please contact the ARCHER2 service desk,
-support@archer2.ac.uk, and mention that you are an attendee on the
-QM/MM with GROMACS + CP2K course and are using the Training Project
-ta025.
+If you have any issues with getting access to ARCHER2, please contact the 
+ARCHER2 service desk, support@archer2.ac.uk, and mention that you are an 
+attendee on the QM/MM with GROMACS + CP2K self-service course.
 
 {% include links.md %}

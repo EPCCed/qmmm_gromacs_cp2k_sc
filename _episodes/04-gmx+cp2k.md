@@ -46,9 +46,10 @@ Please note that `<...>` in the commands means, that everything, including `<>` 
 ## Setting up tutorial environment
 
 Let’s start the tutorial with the following steps  
-1. Execute commands in the terminal:  
+1. Execute commands in the terminal (making sure to use the budget/project ID 
+you were assigned when signing up to this course where appropriate):  
 `module load gromacs-cp2k`  
-`cd /work/ta025/ta025/<your login name>`  
+`cd /work/<your project code>/<your project code>>/<your login name>`  
 `git clone https://github.com/bioexcel/2021-04-22-gromacs-cp2k-tutorial.git tutorial`  
 2. And go to the tutorial directory  
 `cd tutorial`  
@@ -192,13 +193,13 @@ and of **qmmm_md_umbrella.mdp**
 `less qmmm_md_umbrella.mdp`  
 
 9) At the end of the job copy files **stilbene.tpr** and **pullx.tpr** into the shared directory. Beware as you need to append filenames with `<your number>` when copying:  
-`cp stilbene.tpr /work/ta025/ta025/shared/tutorial/umbrella/stilbene<your number>.tpr`  
-`cp pullx.xvg /work/ta025/ta025/shared/tutorial/umbrella/pullx<your number>.xvg`  
+`cp stilbene.tpr /work/<your project code>/<your project code>/shared/tutorial/umbrella/stilbene<your number>.tpr`  
+`cp pullx.xvg /work/<your project code>/<your project code>/shared/tutorial/umbrella/pullx<your number>.xvg`  
 Check also **pull.xvg** file:  
 `less pullx.xvg`  
 It contains information about chosen coordinate dynamics over the simulation trajectory. By performing that sampling over the many points along reaction coordinate and gathering all *.tpr and pullx.xvg files you could produce free-energy profile of the reaction with `gmx_cp2k wham` tool.  
 
-10) After gathering files from all participants, trainer will generate free energy profile **/work/ta011/ta011/shared/tutorial/umbrella/profile.xvg**  
+10) The trainers have generated a free energy profile from the combined results of attendees of a previous run of this course. The results can be found in: **/work/ta025/shared/tutorial/umbrella/profile.xvg**  
 It contains data about Free energy (kJ/mol) against Dihedral angle (deg). You can download and open it in Grace or copy data into any other software (i.e. Excel).  
 
 11) Check the free energy profiles generated from 100 steps (100 fs) and 10000 steps (10 ps) of QMMM MD simulation for each frame from the eq_gro directory: **profile-100fs.xvg** and **profile-10ps.xvg**.

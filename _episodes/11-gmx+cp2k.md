@@ -49,7 +49,7 @@ Please note that `<...>` in the commands means, that everything, including `<>` 
 Let’s start the tutorial with the following steps  
 1. Execute commands in the terminal:  
 `module load gromacs-cp2k`  
-`cd /work/ta025/ta025/<your login name>`  
+`cd /work/<your project code>/<your project code>/<your login name>`  
 2. And go to the tutorial directory  
 `cd tutorial`  
 
