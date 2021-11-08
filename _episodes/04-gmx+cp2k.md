@@ -49,8 +49,8 @@ Let’s start the tutorial with the following steps
 1. Execute commands in the terminal (making sure to use the budget/project ID 
 you were assigned when signing up to this course where appropriate):  
 `module load gromacs-cp2k`  
-`cd /work/<your project code>/<your project code>>/<your login name>`  
-`git clone https://github.com/bioexcel/2021-04-22-gromacs-cp2k-tutorial.git tutorial`  
+`cd /work/<your project code>/<your project code>/<your login name>`  
+`git clone https://github.com/EPCCed/qmmm_gromacs_cp2k_sc.git tutorial`  
 2. And go to the tutorial directory  
 `cd tutorial`  
 
