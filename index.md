@@ -12,7 +12,7 @@ startdate:
 enddate: 
 instructor: ["Dmitry Morozov, Emiliano Ippoliti, Holly Judge"]
 helper: []
-email: ["a.proeme@epcc.ed.ac.uk"]
+email: ["training@epcc.ed.ac.uk"]
 collaborative_notes: 
 root: .
 ---
@@ -23,9 +23,9 @@ root: .
 
 > ## Requirements
 >
-> Participants must have access to a desktop or laptop computer with
-> a Mac, Linux, or Windows operating system (not a tablet, Chromebook,
-> etc.).
+> This is an online self-checkout course. Participants are expected to have 
+> access to a desktop or laptop computer with a Mac, Linux, or Windows 
+> operating system (not a tablet, Chromebook, etc.).
 >
 > <strong>Before the start of the course you should ensure you
 > are able to connect to ARCHER2 using the
