@@ -93,7 +93,8 @@ Generate Gromacs-CP2K simulation file:
 `gmx_cp2k grompp -f em.mdp -p topol.top -c conf.gro -o nma-em.tpr`  
 files **nma-em.tpr**, **nma-em.inp** and **nma-em.pdb** should appear in the directory  
 
-5) Run QMMM simulation:  
+5) Edit `run-em.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run QMMM simulation:
 `sbatch run-em.sh`  
 
 6) While job is running you can check the content of **nma-em.inp**  
@@ -113,7 +114,8 @@ It contains parameters for performing dynamics with QM forces in the NVT ensembl
 `gmx_cp2k grompp -f md-nvt.mdp -p topol.top -c conf.gro -o nma-nvt.tpr`  
 files **nma-nvt.tpr**, **nma-nvt.inp** and **nma-nvt.pdb** should appear in the directory  
 
-10) Run QMMM simulation:  
+10) Edit `run-nvt.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run QMMM simulation:  
 `sbatch run-nvt.sh`  
 
 11) At the end of the simulation you can download trajectory file **traj.trr** and render it using your favorite software (e.g. VMD, PyMOL).  
@@ -184,7 +186,8 @@ You can also modify *pull-coord1-init* option in the **qmmm_md_umbrella.mdp** fi
 `gmx_cp2k grompp -f qmmm_md_umbrella.mdp -p topol.top -c conf.gro -n index.ndx -o stilbene.tpr`  
 files **stilbene.tpr**, **stilbene.inp** and **stilbene.pdb** should appear in the directory  
 
-7) Run QMMM simulation:  
+7) Edit `run.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run QMMM simulation:  
 `sbatch run.sh`  
 
 8) While job is running you can check the content of **stilbene.inp**  

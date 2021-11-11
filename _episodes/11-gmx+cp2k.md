@@ -90,11 +90,15 @@ after that manipulations your **conf.gro** and **topol.top** files will contain 
 
 5) The next step would be minimization and short classical equilibration NVT trajectory.  
 First generate and run energy minimization:
-`gmx_cp2k grompp -f em.mdp -p topol.top -c conf -o egfp-em.tpr`  
+`gmx_cp2k grompp -f em.mdp -p topol.top -c conf -o egfp-em.tpr` 
+Edit `run-em.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run the script: 
 `sbatch run-em.sh`  
 Wait until simulation will be completed.  
 Then perform 100 ps NVT simulation starting from the optimized structure to equilibrate our system:
 `gmx_cp2k grompp -f md-mm-nvt.mdp -p topol.top -c conf.gro -t egfp-em.trr -o egfp-mm-nvt.tpr`  
+Edit `run-mm-nvt.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run the script:
 `sbatch run-mm-nvt.sh`  
 while simulation is running you could check **em.mdp** and **mm-nvt.mdp** files for the details of classical MD simulations  
 
@@ -114,7 +118,8 @@ Look into the **conf.gro** with VMD or PyMOL and make sure that atoms from 938 t
 `gmx_cp2k grompp -f md-qmmm-nvt.mdp -p topol.top -c conf.gro -t egfp-mm-nvt.trr -n index.ndx -o egfp-qmmm-nvt.tpr`  
 Here we are using classically equilibrated trajectory **egfp-mm-nvt.trr** as a starting point for QMMM simulation.  
 
-8) Run QMMM simulation:  
+8) Edit `run-em.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run QMMM simulation:  
 `sbatch run-qmmm-nvt.sh`  
 While simulation is running you could inspect **md-qmmm-nvt.mdp** and check that QM part in that case has charge -1.  
 ```
@@ -160,7 +165,8 @@ This will order CP2K to also calculate 5 excited states at each MD step with TDD
 4) Generate Gromacs-CP2K simulation file:  
 `gmx_cp2k grompp -f md-qmmm-spec.mdp -p topol.top -c conf.gro -t egfp-qmmm-nvt.trr -n index.ndx -o egfp-qmmm-spec.tpr`  
 
-5) Run simulation:  
+5) Edit `run-em.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run simulation:  
 `sbatch run-qmmm-spec.sh`  
 
 6)While it is running inspect content of **md-qmmm-spec.mdp** file, the following lines will order GROMACS to use external CP2K input file:  

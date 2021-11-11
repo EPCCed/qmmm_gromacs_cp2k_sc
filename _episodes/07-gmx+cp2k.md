@@ -74,7 +74,8 @@ Generate Gromacs-CP2K simulation file:
 `gmx_cp2k grompp -f em-qmmm.mdp -p topol.top -c stilbene-sol.pdb -n index.ndx -o stilbene-sol-opt.tpr`  
 files **stilbene-sol-opt.tpr**, **stilbene-sol-opt.inp** and **stilbene-sol-opt.pdb** should appear in the directory  
 
-4) Run QMMM simulation:  
+4) Edit `run-em.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run QMMM simulation:  
 `sbatch run-em.sh`  
 
 5) While job is running you can check the content of **stilbene-sol-opt.inp**  
@@ -97,7 +98,8 @@ It contains parameters for performing dynamics with periodic QMMM forces in the 
 `gmx_cp2k grompp -f md-qmmm-nvt.mdp -p topol.top -c stilbene-sol.pdb -n index.ndx -o stilbene-sol-nvt.tpr`  
 files **stilbene-sol-nvt.tpr**, **stilbene-sol-nvt.inp** and **stilbene-sol-nvt.pdb** should appear in the directory  
 
-9) Run QMMM simulation:  
+9) Edit `run-nvt.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run QMMM simulation:  
 `sbatch run-nvt.sh`  
 
 10) At the end of the simulation you can download trajectory file **traj.trr** and render it using your favorite software (e.g. VMD, PyMOL).  
@@ -120,7 +122,8 @@ You can download it and inspect structure with VMD or PyMOL.
 `gmx_cp2k grompp -f md-qmmm.mdp -p topol.top -c phytochrome-sol.pdb -n index.ndx -o phytochrome.tpr`  
 Files **phytochrome.tpr**, **phytochrome.inp** and **phytochrome.pdb** should appear in the directory  
 
-3) Run QMMM simulation:  
+3) Edit `run.sh` and change [budget code] to your budget code (e.g. ta036-username)
+and run QMMM simulation:  
 `sbatch run.sh`  
 
 4) While job is running you can check the content of **phytochrome.inp**  
