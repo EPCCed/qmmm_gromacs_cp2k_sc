@@ -2,7 +2,6 @@
 title: "Welcome"
 teaching: 15
 exercises: 0
-start: True
 questions:
 - "BioExcel, PRACE, ARCHER2"
 - "This course"

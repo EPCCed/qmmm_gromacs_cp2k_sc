@@ -12,12 +12,10 @@ startdate:
 enddate: 
 instructor: ["Dmitry Morozov, Emiliano Ippoliti, Holly Judge"]
 helper: []
-email: ["training@epcc.ed.ac.uk"]
+email: ["support@archer2.ac.uk"]
 collaborative_notes: 
 root: .
 ---
-
-<center><h3> April 22nd/23rd 2021</h3></center>
 
 <hr/>
 
@@ -31,8 +29,8 @@ root: .
 > are able to connect to ARCHER2 using the
 > <a href="setup">Setup instructions provided</a>.</strong>
 >
-> You are also required to abide by the <a href="https://www.archer2.ac.uk/training/code-of-conduct/">ARCHER2
-> Training Code of Conduct</a>.
+> You are also required to abide by the <a href="https://www.archer2.ac.uk/about/policies/code-of-conduct.html">ARCHER2
+> Code of Conduct</a>.
 {: .prereq}
 
 
