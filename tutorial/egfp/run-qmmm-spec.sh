@@ -1,10 +1,12 @@
 #!/bin/bash
 #SBATCH -J egfp-qmmm-spec
 #SBATCH --time=00:20:00
-#SBATCH --account=ta025
+
+# Replace [budget code] below with your budget code (e.g. ta036-username)
+#SBATCH --account=[budget code]
 #SBATCH --partition=standard
-#SBATCH --qos=standard
-#SBATCH --reservation=ta025_167
+#SBATCH --qos=short
+#SBATCH --reservation=shortqos
 
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=64
