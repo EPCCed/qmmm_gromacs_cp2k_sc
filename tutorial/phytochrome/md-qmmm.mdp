@@ -1,0 +1,49 @@
+integrator               = md-vv
+tinit                    = 0
+dt                       = 0.001
+nsteps                   = 100
+init_step                = 0
+comm-mode                = Linear
+nstcomm                  = 1
+
+nstxout                  = 100
+nstvout                  = 100
+nstlog                   = 1
+nstcalcenergy            = 1
+nstenergy                = 1
+nstxout-compressed       = 1
+compressed-x-precision   = 1000
+compressed-x-grps        = System
+
+cutoff-scheme            = verlet
+nstlist                  = 1
+pbc                      = xyz
+periodic-molecules       = no
+verlet-buffer-tolerance  = 0.005
+rlist                    = 1.2
+
+coulombtype              = PME
+coulomb-modifier         = Potential-shift-Verlet
+rcoulomb-switch          = 1.0
+rcoulomb                 = 1.2
+vdwtype                  = Cut-off
+vdw-modifier             = Force-switch
+rvdw-switch              = 1.0
+rvdw                     = 1.2
+DispCorr                 = no
+
+tcoupl                  = V-rescale             ; modified Berendsen thermostat
+tc-grps                 = System
+tau_t                   = 0.1    ; time constant, in ps
+ref_t                   = 300    ; reference temperature, one for each group, in K
+
+constraints              = h-bonds
+constraint-algorithm     = Lincs
+continuation             = no
+
+; CP2K parameters
+qmmm-active              = true
+qmmm-qmgroup             = QMatoms
+qmmm-qmmethod            = PBE
+qmmm-qmcharge            = 1
+qmmm-qmmultiplicity      = 1
