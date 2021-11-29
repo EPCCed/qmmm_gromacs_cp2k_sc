@@ -202,10 +202,7 @@ Check also **pull.xvg** file:
 `less pullx.xvg`  
 It contains information about chosen coordinate dynamics over the simulation trajectory. By performing that sampling over the many points along reaction coordinate and gathering all *.tpr and pullx.xvg files you could produce free-energy profile of the reaction with `gmx_cp2k wham` tool.  
 
-10) The trainers have generated a free energy profile from the combined results of attendees of a previous run of this course. The results can be found in: **/work/ta025/shared/tutorial/umbrella/profile.xvg**  
-It contains data about Free energy (kJ/mol) against Dihedral angle (deg). You can download and open it in Grace or copy data into any other software (i.e. Excel).  
-
-11) Check the free energy profiles generated from 100 steps (100 fs) and 10000 steps (10 ps) of QMMM MD simulation for each frame from the eq_gro directory: **profile-100fs.xvg** and **profile-10ps.xvg**.
+10) Check the free energy profiles generated from 100 steps (100 fs) and 10000 steps (10 ps) of QMMM MD simulation for each frame from the eq_gro directory: **profile-100fs.xvg** and **profile-10ps.xvg**.
 You can open them with Grace or copy data into any other software (i.e. Excel).  
 
 {% include figure.html url="" max-width="80%" file="/fig/05-gmx+cp2k/stilbene-vacuum-sampling.png" alt="stilbene sampling" %}  
