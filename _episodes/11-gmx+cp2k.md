@@ -118,7 +118,7 @@ Look into the **conf.gro** with VMD or PyMOL and make sure that atoms from 938 t
 `gmx_cp2k grompp -f md-qmmm-nvt.mdp -p topol.top -c conf.gro -t egfp-mm-nvt.trr -n index.ndx -o egfp-qmmm-nvt.tpr`  
 Here we are using classically equilibrated trajectory **egfp-mm-nvt.trr** as a starting point for QMMM simulation.  
 
-8) Edit `run-em.sh` and change [budget code] to your budget code (e.g. ta036-username)
+8) Edit `run-qmmm-nvt.sh` and change [budget code] to your budget code (e.g. ta036-username)
 and run QMMM simulation:  
 `sbatch run-qmmm-nvt.sh`  
 While simulation is running you could inspect **md-qmmm-nvt.mdp** and check that QM part in that case has charge -1.  
@@ -165,7 +165,7 @@ This will order CP2K to also calculate 5 excited states at each MD step with TDD
 4) Generate Gromacs-CP2K simulation file:  
 `gmx_cp2k grompp -f md-qmmm-spec.mdp -p topol.top -c conf.gro -t egfp-qmmm-nvt.trr -n index.ndx -o egfp-qmmm-spec.tpr`  
 
-5) Edit `run-em.sh` and change [budget code] to your budget code (e.g. ta036-username)
+5) Edit `run-qmmm-spec.sh` and change [budget code] to your budget code (e.g. ta036-username)
 and run simulation:  
 `sbatch run-qmmm-spec.sh`  
 
