@@ -15,8 +15,8 @@
 #SBATCH --distribution=block:block 
 #SBATCH --hint=nomultithread
 
-module load epcc-job-env
-module load gromacs-cp2k
+module use /work/y07/shared/archer2-lmod/training/
+module load gromacs/2021.1+cp2k
 
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export OMP_PLACES=cores
