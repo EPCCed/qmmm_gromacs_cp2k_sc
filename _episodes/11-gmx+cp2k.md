@@ -48,8 +48,11 @@ Please note that `<...>` in the commands means, that everything, including `<>` 
 
 Let’s start the tutorial with the following steps  
 1. Execute commands in the terminal:  
-`module load gromacs-cp2k`  
-`cd /work/<your project code>/<your project code>/<your login name>`  
+``` bash
+  module use /work/y07/shared/archer2-lmod/training/
+  module load gromacs/2021.1+cp2k
+  cd /work/<your project code>/<your project code>/<your login name>
+```
 2. And go to the tutorial directory  
 `cd tutorial`  
 
