@@ -48,9 +48,12 @@ Please note that `<...>` in the commands means, that everything, including `<>` 
 Let’s start the tutorial with the following steps  
 1. Execute commands in the terminal (making sure to use the budget/project ID 
 you were assigned when signing up to this course where appropriate):  
-`module load gromacs-cp2k`  
-`cd /work/<your project code>/<your project code>/<your login name>`  
-`svn checkout https://github.com/EPCCed/qmmm_gromacs_cp2k_sc/trunk/tutorial`  
+``` bash
+  module use /work/y07/shared/archer2-lmod/training/
+  module load gromacs/2021.1+cp2k
+  cd /work/<your project code>/<your project code>/<your login name>
+  svn checkout https://github.com/EPCCed/qmmm_gromacs_cp2k_sc/trunk/tutorial
+```
 2. And go to the tutorial directory  
 `cd tutorial`  
 
