@@ -192,6 +192,7 @@ files **stilbene.tpr**, **stilbene.inp** and **stilbene.pdb** should appear in t
 7) Edit `run.sh` and change [budget code] to your budget code (e.g. ta036-username)
 and run QMMM simulation:  
 `sbatch run.sh`  
+(Note that this might take up to one hour to run).
 
 8) While job is running you can check the content of **stilbene.inp**  
 `less stilbene.inp`  
