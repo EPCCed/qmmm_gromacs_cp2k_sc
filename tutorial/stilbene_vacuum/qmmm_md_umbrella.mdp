@@ -2,12 +2,12 @@
 integrator  = md
 dt          = 0.001
 tinit       = 0
-nsteps      = 10000    ; 10 ps
+nsteps      = 1000    ; 1 ps
 nstcomm     = 1
 ; Output parameters
-nstxout     = 1000      ; every 1 ps
-nstvout     = 1000
-nstfout     = 1000
+nstxout     = 100      ; every 0.1 ps
+nstvout     = 100
+nstfout     = 100
 nstlog      = 1
 nstxtcout   = 1       ; every 1 fs
 nstenergy   = 1
