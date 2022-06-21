@@ -5,8 +5,9 @@ exercises: 0
 questions: 
 - "What next?"
 - "Useful links"
+- "Post-course questionnaire"
 objectives:
-- ""
+- "Post-course questionnaire"
 keypoints:
 - ""
 ---
@@ -15,6 +16,9 @@ The video for the course wrap-up can be found [here](https://youtu.be/9ucekR4EXX
 Note that this is the final five minutes of the previous Q&A session video.
 
 [Slides](../slides/wrapup.pdf)
+
+Now that you have completed this course, please could you answer the 
+[post-course questionnaire](https://forms.office.com/pages/responsepage.aspx?id=sAafLmkWiUWHiRCgaTTcYZiv4kfR0aZBhkUz0zeVyeVUNlVWRzJIODUxWDZLU0lOTk5KRUxCQTVIRy4u).
 
 ## Useful links
 
