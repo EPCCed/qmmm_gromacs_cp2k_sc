@@ -3,10 +3,10 @@ title: "Welcome"
 teaching: 15
 exercises: 0
 questions:
-- "BioExcel, PRACE, ARCHER2"
-- "This course"
+- "What are BioExcel and PRACE?"
+- "Pre-course questionnaire"
 objectives:
-- ""
+- "Pre-course questionnaire"
 keypoints:
 - ""
 ---
