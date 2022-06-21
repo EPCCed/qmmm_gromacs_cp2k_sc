@@ -16,12 +16,12 @@ keypoints:
 Welcome to this ARCHER2 self-checkout course on running QM/MM 
 simulations with GROMACS + CP2K. Before starting this course, please 
 could you fill out the 
-`[pre-course questionnaire](https://forms.office.com/pages/responsepage.aspx?id=sAafLmkWiUWHiRCgaTTcYZiv4kfR0aZBhkUz0zeVyeVUMDZUVlFVVVlEWUNET0xCTE9MUkI4MDdGOC4u).
+[pre-course questionnaire](https://forms.office.com/pages/responsepage.aspx?id=sAafLmkWiUWHiRCgaTTcYZiv4kfR0aZBhkUz0zeVyeVUMDZUVlFVVVlEWUNET0xCTE9MUkI4MDdGOC4u).
 
 This course was originally run as a collaborative project between 
 BioExcel and PRACE.
 
-[BioExcel Overview](../slides/BioExcel.pdf)
+### BioExcel Overview
 
 [BioExcel](https://bioexcel.eu) is a European Centre of Excellence in
 HPC applications for computational biomolecular research. Established
@@ -45,7 +45,7 @@ cutting-edge features. BioExcel works closely with various
 governmental, non-profit, educational and policy projects and
 initiatives.
 
-[PRACE, ARCHER2](../slides/ARCHER2-PATC-Intro.pdf)
+### PRACE overview
 
 [PRACE](https://prace-ri.eu/) (Partnership for Advanced Computing in Europe)
 aims to enable high-impact scientific discovery and engineering research and
@@ -60,6 +60,5 @@ Along with providing access to HPC infractructures across Europe, PRACE provides
 world-class HPC training for researchers in Europe through its six PRACE Advanced
 Training Centres (PATCs). Information about PRACE training can be found
 [here](https://prace-ri.eu/).
-
 
 {% include links.md %}
