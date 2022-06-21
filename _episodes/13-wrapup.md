@@ -18,7 +18,7 @@ Note that this is the final five minutes of the previous Q&A session video.
 [Slides](../slides/wrapup.pdf)
 
 Now that you have completed this course, please could you answer the 
-[post-course questionnaire](https://forms.office.com/pages/responsepage.aspx?id=sAafLmkWiUWHiRCgaTTcYZiv4kfR0aZBhkUz0zeVyeVUNlVWRzJIODUxWDZLU0lOTk5KRUxCQTVIRy4u).
+[post-course questionnaire](https://bit.ly/ARCHER2-self-serve-post-course-survey).
 
 ## Useful links
 
