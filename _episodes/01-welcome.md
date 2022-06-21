@@ -16,7 +16,7 @@ keypoints:
 Welcome to this ARCHER2 self-checkout course on running QM/MM 
 simulations with GROMACS + CP2K. Before starting this course, please 
 could you fill out the 
-[pre-course questionnaire](https://forms.office.com/pages/responsepage.aspx?id=sAafLmkWiUWHiRCgaTTcYZiv4kfR0aZBhkUz0zeVyeVUMDZUVlFVVVlEWUNET0xCTE9MUkI4MDdGOC4u).
+[pre-course questionnaire](https://bit.ly/ARCHER2-self-serve-pre-course-survey).
 
 This course was originally run as a collaborative project between 
 BioExcel and PRACE.
